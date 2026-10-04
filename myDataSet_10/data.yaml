@@ -1,0 +1,13 @@
+train_xiaorong: D:\zgc\yolo11\ultralytics-yolo11-main\myDataSet_10\train\images
+val: D:\zgc\yolo11\ultralytics-yolo11-main\myDataSet_10\valid\images
+test: D:\zgc\yolo11\ultralytics-yolo11-main\myDataSet_10\test\images
+
+nc: 10
+names: ['Bacterial_Spot', 'Early_Blight', 'Healthy', 'Late_Blight', 'Leaf_Mold', 'Leaf_Miner', 'Mosaic_Virus','Septoria','Spider_Mites','Yellow_Leaf_Curl_Virus']
+#[Bacterial Spot：细菌性斑点病,Early_Blight：早疫病,Healthy：健康（非病害）,Late_blight：晚疫病,Leaf Mold：叶霉病,Target_Spot：靶斑病，black spot：黑斑病]
+roboflow:
+  workspace: sylhet-agricultural-university
+  project: tomato-leaf-diseases-detect
+  version: 3
+  license: Public Domain
+  url: https://universe.roboflow.com/sylhet-agricultural-university/tomato-leaf-diseases-detect/dataset/3
