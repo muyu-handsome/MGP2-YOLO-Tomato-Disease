@@ -15,7 +15,7 @@
 
 - **类别数**: 10类番茄叶片病害
 - **类别**: Bacterial_Spot, Early_Blight, Healthy, Late_Blight, Leaf_Mold, Leaf_Miner, Mosaic_Virus, Septoria, Spider_Mites, Yellow_Leaf_Curl_Virus
-- **来源**: [Roboflow - Tomato Leaf Diseases Detect](https://universe.roboflow.com/sylhet-agricultural-university/tomato-leaf-diseases-detect/dataset/3)
+- **来源**: [Roboflow - Tomato Leaf Diseases Detect]([https://universe.roboflow.com/sylhet-agricultural-university/tomato-leaf-diseases-detect/dataset/3](https://zenodo.org/records/23132682?preview=1))
 
 ## 环境配置
 
