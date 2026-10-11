@@ -13,7 +13,7 @@ if __name__ == '__main__':
     # - my-yolo-fdpn-sope-c3k2-emsc4_1.yaml : 本文提出的改进模型 (FDPN + SOPE + C3k2_EMSC)
 
     model = YOLO('ultralytics/cfg/models/11/my-yolo-fdpn-sope-c3k2-emsc4_1.yaml')
-    # model.load('yolo11n.pt')  # 加载预训练权重(可选)
+    model.load('yolo11n.pt')  # 加载预训练权重(可选)
 
     model.train(data='myDataSet_10/data.yaml',
                 cache=False,
