@@ -5,14 +5,8 @@ warnings.filterwarnings('ignore')
 from ultralytics import YOLO
 
 if __name__ == '__main__':
-    # 选择模型配置文件:
-    # - yolo11.yaml                          : YOLO11 baseline
-    # - yolo11-AFPN-P2345.yaml              : YOLO11 + AFPN (P2-P5四层检测)
-    # - yolo11-AFPN-P345.yaml               : YOLO11 + AFPN (P3-P5三层检测)
-    # - yolo11-c3k2-AFPN-P2345.yaml         : YOLO11 + C3k2 + AFPN
-    # - my-yolo-fdpn-sope-c3k2-emsc4_1.yaml : 本文提出的改进模型 (FDPN + SOPE + C3k2_EMSC)
 
-    model = YOLO('ultralytics/cfg/models/11/my-yolo-fdpn-sope-c3k2-emsc4_1.yaml')
+    model = YOLO('ultralytics/cfg/models/11/my-yolo-a-b-c.yaml')
     model.load('yolo11n.pt')  # 加载预训练权重(可选)
 
     model.train(data='myDataSet_10/data.yaml',
